@@ -43,7 +43,7 @@ RUN conda update conda && \
 RUN echo 'export PATH="/opt/conda/bin:$PATH"' >> /etc/bash.bashrc
 
 
-# Listening JupyterHub, Jupyter Notebook, Tensorboard, MySQL:3306, MongoDB:27017
+# Listening JupyterHub:8000, JupyterNotebook:8888, Tensorboard:6006, MySQL:3306, MongoDB:27017
 EXPOSE 22 80 443 8000 8888 6006  
 
 USER ubu
