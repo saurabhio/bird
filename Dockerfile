@@ -1,7 +1,6 @@
 FROM ubuntu:18.04
 
-LABEL maintainer="Saurabh <saurabhio@outlook.com>" \
-      description="This is a Docker image for Data Science stuffs based on Ubuntu."
+LABEL maintainer="Saurabh <saurabhio@outlook.com>"
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
