@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-LABEL maintainer="Saurabh <saurabhio@outlook.com>"
+LABEL maintainer="Saurabh <saurabhio.com>"
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
